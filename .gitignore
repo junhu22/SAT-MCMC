@@ -1,0 +1,16 @@
+# Exclude raw measurements and local working files
+*.mat
+*.h5
+*.npz
+*.pt
+*.pth
+*.pkl
+*.log
+*.aux
+*.out
+*.pdf
+__pycache__/
+.ipynb_checkpoints/
+.env
+.env.*
+.DS_Store

@@ -1,0 +1,83 @@
+{
+ "schema": "window144_routeA/1",
+ "source": "results/per_window_modes_v5.csv",
+ "data_version_note": "the per-window set this file was computed from; it must be the one the manuscript reports",
+ "written_at": "2026-08-27T09:21:27",
+ "window": 144,
+ "route_a": {
+  "routeA_shift_TX1": {
+   "with_mhz": -1.6020540807103134,
+   "without_mhz": -1.632866676219392,
+   "se_mhz": 0.16090840296705788,
+   "shift_in_se": -0.19149152524611576,
+   "estimator": "Newey-West lag 4, difference of two means"
+  },
+  "routeA_z_TX1": {
+   "with": -9.956310864873199,
+   "without": -10.437462487420003,
+   "sign_flip": false,
+   "estimator": "Newey-West lag 4"
+  },
+  "routeA_shift_TY1": {
+   "with_mhz": -2.6307041932568644,
+   "without_mhz": -2.6677594026756766,
+   "se_mhz": 0.2045495920779369,
+   "shift_in_se": -0.18115513720845616,
+   "estimator": "Newey-West lag 4, difference of two means"
+  },
+  "routeA_z_TY1": {
+   "with": -12.860960349676574,
+   "without": -13.36562521870086,
+   "sign_flip": false,
+   "estimator": "Newey-West lag 4"
+  },
+  "routeA_shift_R1": {
+   "with_mhz": -7.421829057411784,
+   "without_mhz": -7.442515899182841,
+   "se_mhz": 0.46929653675945576,
+   "shift_in_se": -0.04408053362997936,
+   "estimator": "Newey-West lag 4, difference of two means"
+  },
+  "routeA_z_R1": {
+   "with": -15.814796138621286,
+   "without": -15.838084788479202,
+   "sign_flip": false,
+   "estimator": "Newey-West lag 4"
+  },
+  "routeB_z_TX1": {
+   "with": -13.660261759964309,
+   "without": -13.539706432789602,
+   "sign_flip": false,
+   "estimator": "iid, pairs treated as independent",
+   "also_available": {
+    "cluster_robust_on_pre_window": -9.723988575638582,
+    "newey_west_lag4_routeA": -9.919447165555281
+   }
+  },
+  "routeB_z_TY1": {
+   "with": -19.112494819626697,
+   "without": -19.850488722313003,
+   "sign_flip": false,
+   "estimator": "iid, pairs treated as independent",
+   "also_available": {
+    "cluster_robust_on_pre_window": -13.68977940314844,
+    "newey_west_lag4_routeA": -12.863831103074453
+   }
+  },
+  "routeB_z_R1": {
+   "with": -31.77572549990859,
+   "without": -31.35745731256913,
+   "sign_flip": false,
+   "estimator": "iid, pairs treated as independent",
+   "also_available": {
+    "cluster_robust_on_pre_window": -21.933200446049817,
+    "newey_west_lag4_routeA": -23.716764554347012
+   }
+  }
+ },
+ "worst_shift_in_se": 0.19149152524611576,
+ "any_sign_flip": false,
+ "over_threshold": [],
+ "branch": "PROCEED",
+ "script_sha256": "a1e4bc666f1669f2"
+}

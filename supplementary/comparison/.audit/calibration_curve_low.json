@@ -1,0 +1,35 @@
+{
+ "schema": "calibration_curve_low/1",
+ "written_at": "2026-08-27T16:52:30",
+ "extends": ".audit/calibration_curve_v5.json",
+ "configuration": "A: fixed centre at f_ref, half-width 60 mHz",
+ "f_ref_hz": 0.447,
+ "half_width_hz": 0.06,
+ "n_rep": 96,
+ "n_boot": 4000,
+ "boot_seed": 20260826,
+ "snr_db": 60.0,
+ "drift_mhz": 0.0,
+ "drift_note": "run at the offset the lowest existing level carries; the six-level schedule assigns offset by index, so prepending levels there would have moved six archived ratios",
+ "levels": {
+  "0.0040": {
+   "xi_true": 0.004,
+   "drift_mhz": 0.0,
+   "n_ok": 96,
+   "median_xi": 0.004145747032224091,
+   "ratio": 1.0364367580560228,
+   "ci_lo": 0.9871569721403725,
+   "ci_hi": 1.0973393912561686
+  },
+  "0.0050": {
+   "xi_true": 0.005,
+   "drift_mhz": 0.0,
+   "n_ok": 96,
+   "median_xi": 0.004841769396289039,
+   "ratio": 0.9683538792578078,
+   "ci_lo": 0.9264028387401909,
+   "ci_hi": 1.024410836725532
+  }
+ },
+ "script_sha256": "04547f2e95ca44b8"
+}
